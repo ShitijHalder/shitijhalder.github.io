@@ -9,14 +9,14 @@ function isEmail($email) {
 
 if (!defined("PHP_EOL")) define("PHP_EOL", "\r\n");
 
-$name     = $_POST['name'];
+Shitij Halder     = $_POST['name'];
 $email    = $_POST['email'];
 $phone   = $_POST['phone'];
 $subject  = $_POST['subject'];
 $comments = $_POST['comments'];
 $verify   = $_POST['verify'];
 
-if(trim($name) == '') {
+if(trim(Shitij Halder) == '') {
 	echo '<div class="error_message">You must enter your name.</div>';
 	exit();
 } else if(trim($email) == '') {
@@ -54,27 +54,27 @@ if(get_magic_quotes_gpc()) {
 
 // Configuration option.
 // Enter the email address that you want to emails to be sent to.
-// Example $address = "joe.doe@yourdomain.com";
+// Example $address = "yourname@gmail.com";
 
-//$address = "example@themeforest.net";
-$address = "example@themeforest.net";
+//$address = "shitijhalder4@gmail.com";
+$address = "shitijhalder4@gmail.com";
 
 
 // Configuration option.
-// i.e. The standard subject will appear as, "You've been contacted by John Doe."
+// i.e. The standard subject will appear as, "You've been contacted by Shitij Halder."
 
-// Example, $e_subject = '$name . ' has contacted you via Your Website.';
+// Example, $e_subject = 'Shitij Halder . ' has contacted you via Your Website.';
 
-$e_subject = 'You\'ve been contacted by ' . $name . '.';
+$e_subject = 'You\'ve been contacted by ' . Shitij Halder . '.';
 
 
 // Configuration option.
 // You can change this if you feel that you need to.
 // Developers, you may wish to add more fields to the form, in which case you must be sure to add them here.
 
-$e_body = "You have been contacted by $name with regards to $subject, their additional message is as follows." . PHP_EOL . PHP_EOL;
+$e_body = "You have been contacted by Shitij Halder with regards to $subject, their additional message is as follows." . PHP_EOL . PHP_EOL;
 $e_content = "\"$comments\"" . PHP_EOL . PHP_EOL;
-$e_reply = "You can contact $name via email, $email or via phone $phone";
+$e_reply = "You can contact Shitij Halder via email, $email or via phone $phone";
 
 $msg = wordwrap( $e_body . $e_content . $e_reply, 70 );
 
@@ -91,7 +91,7 @@ if(mail($address, $e_subject, $msg, $headers)) {
 	echo "<fieldset>";
 	echo "<div id='success_page'>";
 	echo "<h1>Email Sent Successfully.</h1>";
-	echo "<p>Thank you <strong>$name</strong>, your message has been submitted to us.</p>";
+	echo "<p>Thank you <strong>Shitij Halder</strong>, your message has been submitted to us.</p>";
 	echo "</div>";
 	echo "</fieldset>";
 
