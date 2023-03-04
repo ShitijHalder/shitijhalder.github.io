@@ -7,24 +7,24 @@ I am passionate about designing visually stunning and user-friendly websites. I 
 
 HTML/CSS
  • JavaScript
- •Responsive design
- •WordPress customization
+ • Responsive design
+ • WordPress customization
 
 Android Development
 As an experienced Android developer, I enjoy building mobile applications that are functional, user-friendly, and solve real-world problems. Whether you need a native Android app or a cross-platform solution, I can help you create an app that stands out. My skills include:
 
- •Java/Kotlin
- •Android Studio
- •RESTful APIs
- •Firebase integration
+ • Java/Kotlin
+ • Android Studio
+ • RESTful APIs
+ • Firebase integration
 
 Photography
 Photography is my passion, and I love capturing beautiful moments and turning them into timeless memories. Whether you need portraits, landscapes, or event photography, I can help you create stunning visuals that tell a story. My skills include:
 
- •Composition
- •Lighting
- •Editing
- •Adobe Creative Suite
+ • Composition
+ • Lighting
+ • Editing
+ • Adobe Creative Suite
 
 Contact Me
 If you're interested in working with me or just want to say hi, feel free to get in touch! You can reach me at shitijhalder4@gmail.com or connect with me on LinkedIn to learn more about my experiences and projects.
