@@ -1,0 +1,46 @@
+{
+  "background_color": "#ffffff",
+  "dark_mode_background_color": "#000000",
+  "dark_mode_theme_color": "#000000",
+  "description": "fill in the here",
+  "display": "standalone",
+  "icons": [
+    {
+      "sizes": "192x192",
+      "src": "/apple-touch-icon.png",
+      "type": "image/png"
+    },
+    {
+      "sizes": "512x512",
+      "src": "/favicon.webp",
+      "type": "image/webp"
+    },
+    {
+      "purpose": "maskable",
+      "sizes": "512x512",
+      "src": "/maskable_icon.webp",
+      "type": "image/webp"
+    },
+    {
+      "purpose": "maskable",
+      "sizes": "512x512",
+      "src": "/maskable_icon.png",
+      "type": "image/png"
+    }
+  ],
+  "id": "/",
+  "lang": "en-US",
+  "name": "Shitij",
+  "orientation": "any",
+  "scope": "/",
+  "shortcuts": [
+    {
+      "icons": [{ "sizes": "192x192", "src": "/writer.webp" }],
+      "name": "Writer",
+      "url": "/writer"
+    }
+  ],
+  "short_name": "Eray's Blog",
+  "start_url": "/",
+  "theme_color": "#ffffff"
+}
