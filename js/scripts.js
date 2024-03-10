@@ -895,3 +895,4 @@ $(function () {
     initparallax();
     initSHITIJ();
 });
+

@@ -19,3 +19,95 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+
+
+<!-- custom-inner -->	
+                                <div class="custom-inner">
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <div class="custom-inner-header workres">
+                                                <i class="fa fa-briefcase"></i>
+                                                <h3> Picture taken on</h3>
+                                                <span>  6thOctober 2023</span>
+                                            </div>
+                                            <div class="ci-num"><span>01. -</span></div>
+                                        </div>
+                                        <div class="col-md-4"><img src="images/index-assets/6th October 2023 - Place.jpg" class="respimg" data-scrollax="properties: { translateY: '-170px' }" alt=""></div>
+                                        <div class="col-md-4">
+                                            <div class="custom-inner-content fl-wrap">
+                                                <h4>Event.</h4>
+                                                <p>KV IIT Kharagpur -  NCSC Project</p>
+                                                <ul>
+                                                    <li>Good environment.</li>
+                                                    <li>Peaceful.</li>
+                                                    <li>Helpful teachers.</li>
+                                                </ul>
+                                                <a href="https://maps.app.goo.gl/fzqMii4rov71HrG28" class="cus-inner-head-link color-bg">Details + </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- custom-inner end -->
+
+
+
+
+
+                                <!-- custom-inner -->	
+                                <div class="custom-inner">
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <div class="custom-inner-header workres">
+                                                <i class="fa fa-briefcase"></i>
+                                                <h3> Picture taken on</h3>
+                                                <span>  23rd October 2023</span>
+                                            </div>
+                                            <div class="ci-num"><span>01. -</span></div>
+                                        </div>
+                                        <div class="col-md-4"><img src="images/index-assets/23rd October 2023 - Self.jpg" class="respimg" data-scrollax="properties: { translateY: '-170px' }" alt=""></div>
+                                        <div class="col-md-4">
+                                            <div class="custom-inner-content fl-wrap">
+                                                <h4>Event.</h4>
+                                                <p>Long drive to a resort</p>
+                                                <ul>
+                                                    <li>Tillottoma Tourist Resort</li>
+                                                    <li>Great food, good environment, peacelful.</li>
+                                                    <li>Fun.</li>
+                                                </ul>
+                                                <a href="https://maps.app.goo.gl/fzqMii4rov71HrG28" class="cus-inner-head-link color-bg">Details + </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- custom-inner end -->
+
+
+
+                                <!-- custom-inner -->	
+                                <div class="custom-inner">
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <div class="custom-inner-header workres">
+                                                <i class="fa fa-briefcase"></i>
+                                                <h3> Picture taken on</h3>
+                                                <span>  6thOctober 2023</span>
+                                            </div>
+                                            <div class="ci-num"><span>01. -</span></div>
+                                        </div>
+                                        <div class="col-md-4"><img src="images/index-assets/6th October 2023 - Place.jpg" class="respimg" data-scrollax="properties: { translateY: '-170px' }" alt=""></div>
+                                        <div class="col-md-4">
+                                            <div class="custom-inner-content fl-wrap">
+                                                <h4>Event.</h4>
+                                                <p>KV IIT Kharagpur -  NCSC Project</p>
+                                                <ul>
+                                                    <li>Good environment.</li>
+                                                    <li>Peaceful.</li>
+                                                    <li>Helpful teachers.</li>
+                                                </ul>
+                                                <a href="https://maps.app.goo.gl/fzqMii4rov71HrG28" class="cus-inner-head-link color-bg">Details + </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- custom-inner end -->

@@ -6779,3 +6779,23 @@ section.parallax-section .section-title:before {
 		background-position: center;
 	}
 }
+/* Desktops and laptops */
+@media only screen and (min-width: 992px) {
+    .desktop {
+        display: block;
+    }
+    .mobile {
+        display: none;
+    }
+}
+
+/* Tablets and phones */
+@media only screen and (max-width: 991px) {
+    .desktop {
+        display: none;
+    }
+    .mobile {
+        display: block;
+    }
+}
+
