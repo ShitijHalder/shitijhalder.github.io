@@ -18,6 +18,35 @@
                 <link type="text/css" rel="stylesheet" href="css/color.css">
                 <!--=============== favicons ===============-->
                 <link href="images/index-assets/header.ico" rel="icon">
+                <style>
+                    .gallery-items .gallery-item {
+                        transition: all 0.3s ease; 
+                        transform: scale(1); 
+                    }
+                    
+                    .gallery-item .hd-box-wrap h2 { /* Target the title text */
+                        transition: all 0.3s ease; /* Add transition for smooth effect */
+                    }
+                    
+                    @media (min-width: 768px) { 
+                        .gallery-items .gallery-item:hover {
+                            transform: scale(1.1); 
+                            z-index: 2; 
+                        }
+                    
+                        .gallery-items:hover .gallery-item:not(:hover) {
+                            opacity: 0.5; 
+                            filter: blur(5px);
+                        }
+                    
+                        .gallery-items .gallery-item:hover .hd-box-wrap h2 { 
+                            font-size: 24px !important; /* Significantly increase font size */
+                            font-weight: 900 !important; /* Make it extra bold */
+                            letter-spacing: 4px !important; /* Increase letter spacing */
+                            text-shadow: 0px 2px 10px rgba(0, 0, 0, 0.8); /* Add a strong text shadow */
+                        }
+                    }
+                </style>
             </head>
             <script>
                 window.addEventListener('DOMContentLoaded', (event) => {
