@@ -53,6 +53,21 @@
           overflow: hidden; 
         }
       </style>
+      <style>
+        /* ... your existing CSS ... */ 
+        .mm-parallax { 
+          /* ... your existing parallax styles ... */ 
+        }
+    
+        /* Media query for mobile devices */
+        @media (max-width: 768px) { 
+          .mm-parallax {
+            /* Disable or modify parallax effect for mobile */
+            transform: none !important; /* Remove any transforms */
+            /* Add mobile-specific styles if needed */
+          }
+        }
+      </style>
     <body>
         <!--loader-->
         <div class="loader-wrap">
@@ -120,58 +135,66 @@
         </div>
         <!--  navigation bar end -->
         <div class="cs-wrap">
-            <div class="hero-wrap soon-wrap">
-              <div class="impulse-wrap">
-                <div class="mm-parallax">
-                  <div class="half-hero-wrap section-entry">
-                    <h1   
-           style="font-family: 'Playfair Display', serif; font-size: 4em; font-weight: 700; line-height: 1.2;">
-                      I will be <br> 
-                      <span class="age-text">18 years old</span> in 
-                    </h1>
-                    <div class="counter-widget fl-wrap" data-countDate="03/12/2025 12:00 AM +05:30">
-                      <div class="countdown fl-wrap">
-                        <div class="countdown-item"><span class="days rot">00</span><p>days</p></div>
-                        <div class="countdown-item"><span class="hours rot">00</span><p>hours</p></div>   
-                        <div class="countdown-item"><span class="minutes rot2">00</span><p>minutes </p></div>
-                        <div class="countdown-item"><span class="seconds rot2">00</span><p>seconds</p></div>
-                      </div>   
-                    </div>
-                    <button id="playPauseButton" class="play-button"> 
-                      <i class="fas fa-play"></i> 
-                      <span id="buttonText">Play Video</span> 
-                    </button>
-                  </div>  
-                  <div class="half-bg">
-                    <div class="bg"> 
-                      <video loop id="myVideo"> 
-                        <source src="cinematics/birthday.mp4" type="video/mp4">
-                        Your browser does not support the video tag.
-                      </video>
-                    </div>
-                    <div class="overlay"></div>
+          <div class="hero-wrap soon-wrap">
+            <div class="impulse-wrap">
+              <div class="mm-parallax"> 
+                <div class="half-hero-wrap section-entry">
+                  <h1 style="font-family: 'Playfair Display', serif; font-size: 4em; font-weight: 700; line-height: 1.2;">I will be <br> <span class="age-text">18 years old</span> in </h1>
+                  <div class="counter-widget fl-wrap" data-countDate="03/12/2025 12:00 AM +05:30">
+                    <div class="countdown fl-wrap">
+                      <div class="countdown-item"><span class="days rot">00</span><p>days</p></div>
+                      <div class="countdown-item"><span class="hours rot">00</span><p>hours</p></div>   
+                      <div class="countdown-item"><span class="minutes rot2">00</span><p>minutes </p></div>
+                      <div class="countdown-item"><span class="seconds rot2">00</span><p>seconds</p></div>
+                    </div>   
                   </div>
+                  <button id="playPauseButton" class="play-button"> 
+                    <i class="fas fa-play"></i> 
+                    <span id="buttonText">Play Video</span> 
+                  </button>
+                </div>  
+                <div class="half-bg">
+                  <div class="bg"> 
+                    <video loop id="myVideo"> 
+                      <source src="cinematics/birthday.mp4" type="video/mp4">
+                      Your browser does not support the video tag.
+                    </video>
+                  </div>
+                  <div class="overlay"></div>
                 </div>
               </div>
             </div>
           </div>
-          <script>
-            const video = document.getElementById("myVideo");
-            const playPauseButton = document.getElementById("playPauseButton");
-            const buttonText = document.getElementById("buttonText"); 
-          
-            playPauseButton.addEventListener("click", function() {
-              if (video.paused) {
-                video.play();
-                buttonText.textContent = "Pause Video"; 
-                playPauseButton.innerHTML = '<i class="fas fa-pause"></i> Pause Video';
-              } else {
-                video.pause();
-                buttonText.textContent = "Play Video"; 
-                playPauseButton.innerHTML = '<i class="fas fa-play"></i> Play Video'; 
-              }
-            });
-          </script>
+        </div>
+        <script>
+          const video = document.getElementById("myVideo");
+          const playPauseButton = document.getElementById("playPauseButton");
+          const buttonText = document.getElementById("buttonText"); 
+      
+          playPauseButton.addEventListener("click", function() {
+            if (video.paused) {
+              video.play();
+              buttonText.textContent = "Pause Video"; 
+              playPauseButton.innerHTML = '<i class="fas fa-pause"></i> Pause Video';
+            } else {
+              video.pause();
+              buttonText.textContent = "Play Video"; 
+              playPauseButton.innerHTML = '<i class="fas fa-play"></i> Play Video'; 
+            }
+          });
+      
+          // Function to detect mobile devices
+          function isMobileDevice() {
+            return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);   
+      
+          }
+      
+          // Disable parallax on mobile devices
+          if (isMobileDevice()) {
+            const parallaxElement = document.querySelector('.mm-parallax'); 
+            parallaxElement.classList.remove('mm-parallax');
+          } 
+        </script>
           <style>
             .play-button {
               position: relative; 
